@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.header-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.profile-pic {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px;
+  display: inline-block;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+.section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+#about {
+    background-color:rosybrown ;
+}
+#digital {
+    background-color: rgb(209, 168, 177);
+}
+#experience {
+    background-color: rgb(236, 212, 223);
+    margin: auto;
+}
+
+.skills-list {
+  list-style: square inside;
+  padding-left: 0;
+  background-color: beige;
+}
+
+.project {
+  margin-bottom: 20px;
+  background-color:bisque;
+}
+
+.project a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
